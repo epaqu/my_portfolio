@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="title" content="안재우의 포트폴리오 페이지">
+    <meta name="author" content="안재우">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+    <!-- 부트스트랩 추가 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- CSS 추가 -->
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 폰트 추가 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR|Nanum+Gothic+Coding|Nanum+Myeongjo|Do+Hyeon|Stylish">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Righteous|Anonymous+Pro|Raleway">
+	<!-- 자바스크립트 추가 -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/typed.js"></script>
+	<script type="text/javascript" src="js/loading.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/update.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+	<title>Jaewoo An | Portfolio</title>
+</head>
+<body>
+	<div class="preload">
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+	</div>
+	<script>
+		setTimeout("slide()", 3000);
+		setTimeout("show()", 4500);
+	</script>
+	<script>
+		$(document).ready(function(){
+			$("#wrapper").fullpage()
+		});
+	</script>
+	<div class="loader">
+	</div>
+	<div class="main" id="wrapper">
+		<div class="section">
+			<nav class="menu">
+	            <img class="toplogo" src="images/logo.png" href="index.html"></a>
+	            <ul class="list-inline">
+					<li class="list-inline-item"><a class="button homebutton" href="#wrapper">Home</a></li>
+					<li class="list-inline-item"><a class="button" href="#AboutMe">AboutMe</a></li>
+					<li class="list-inline-item"><a class="button" href="#Projects">Projects</a></li>
+					<li class="list-inline-item"><a class="button" href="#Contact">Contact</a></li>
+					<li class="list-inline-item"><a class="button" href="#Credits">Credits</a></li>
+					<li class="list-inline-item"><a class="button" href="index_kor.html">한글</a></li>
+				</ul>
+	    	</nav>
+			<img class="logo" src="images/home.png">
+	    	<div class="bottom">
+	    		<h2><span id="type"></span></h2>
+	    	</div>
+		    <script>
+				var typed3 = new Typed('#type', {
+					strings: ["data mining", "data visualization", "data analysis", "machine learning", "deep learning", "web design"],
+					typeSpeed: 80,
+					backSpeed: 60,
+					smartBackspace: true, // this is a default
+					loop: true
+				});
+		    </script>
+		    <div class="scroll">
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    </div>
+		</div>
+		<div class="section">
+			<div class="slide">
+				<div class="intro" id="AboutMe">
+					<section class="container">
+						<img class="profile" src="images/profile.jpg">
+						<h1> About me </h1>
+						<p>
+							Welcome to my portfolio. I am Jaewoo An, but please just call me J. Born and raised in Seoul, I moved to the States for high school. I graduated from <a href="https://www.kaist.ac.kr/html/en/index.html">KAIST</a>, one of the most prestigious engineering schools here in South Korea, with a bachelor's degree in bio & brain engineering. It covers a variety of academic fields, from anatomy and molecular biology to fluidics and dynamics to signal processing and circuit theory. But what really caught my attention was neuroscience and informatics. I was especially fascinated with neural networks. I worked my way through college, absorbing what I could from my professors and teaching myself what I felt was necessary. I started with data mining and optimization in C++. It took me awhile to learn the basics of computer science, but I passed the national data processer certificate examination with a very high score. Soon I was implementing machine learning models and statistical analysis in MATLAB and R. At this point, I was also teaching myself how to visualize data using igraph, Seaborn, and Gephi. And then it was deep learning in Python 3 using TensorFlow.
+							<br><br>To this day, I am both excited and frustrated to know just how much knowledge is still out there for me to learn. I doubt the day will ever come when I finally get to call myself a true master. But there is one thing I know for certain: I will never stop learning. I am highly motivated to delve into whatever type of data I get my hands on, because I love what I do.
+						</p>
+					</section>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="details">
+					<section class="container">
+						<img class="profile" src="images/profile.jpg">
+						<h1> Wanna know more about me? </h1>
+						<p>
+							I like movies.
+							I like musicals.
+							I like history.
+							I like traveling.
+							I like philosophy.
+							I like video games
+							I like tea and coffee.
+							I don't like alcohol.
+							I don't like cigarratte.
+						</p>
+					</section>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="skills">
+					<section class="container">
+						<h1> SKILLS </h1>
+						<p>
+							<h3>Data Science</h3>
+							<h4><ul class="skill-list">
+								<li>Python3, NumPy, Pandas, Tensorflow</li>
+								<li>R3.5.1, MATLAB</li>
+								<li>ANOVA, K-NN, ConvNet, LSTM</li>
+							</ul></h4>
+							<h3>Web Design</h3>
+							<h4><ul class="skill-list">
+								<li>HTML5, CSS3, Javascript</li>
+								<li>Ruby 2.3.3, Rails 5.1.6, Bootstrap 4.1.3</li>
+							</ul></h4>
+							<h3>Others</h3>
+							<h4><ul class="skill-list">
+								<li>C++, Java SE6, Visual&nbsp;Basic, Gephi0.9.2</li>
+							</ul></h4>
+						</p>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div class = "section" id = "Projects">
+			<div class="slide">
+				<section class="container">
+					<h1>1 Steam Tags Analysis</h1>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>2 Steam Review Prediction Model</h2>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>3 PlayDB Crawler</h3>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>4 An Interactive Network of KAIST Professors</h4>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>5 Handwritten Digits Recognizer</h5>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>6 Twitter Word Cloud</h1>
+				</section>
+			</div>
+		</div>
+		<div class = "section" id = "Contact">
+			<div class="contact">
+				<section class="container">
+					<h5>Contact me via:</h5>
+					<ul class="list-unstyled">
+						<li title="이메일">
+							<i class="flaticon-envelope"></i>
+							<span class="iconed-text"><a href="mailto:an.jaewoo@gmail.com">GMAIL</a></span>
+						</li>
+						<li title="핸드폰">
+							<i class="flaticon-telephone-handle-silhouette"></i>
+							<span class="iconed-text"><a href="tel:010-8652-3094">PHONE</a></span>
+						</li>
+						<li title="GitHub">
+							<i class="flaticon-github-logo"></i>
+							<span class="iconed-text"><a href="https://github.com/epaqu" target="_blank">GITHUB</a></span>
+						</li>
+						<li title="LinkedIn">
+							<i class="flaticon-linkedin-sign"></i>
+							<span class="iconed-text"><a href="https://www.linkedin.com/in/jaewoo-an-805a31168" target="_blank">LinkedIn</a></span>
+						</li>
+					</ul>
+					<div class="copyright">Copyright &copy; Jaewoo An</div>
+					<div class="update-date"><script>lastUpdate()</script></div>
+				</section>
+			</div>
+		</div>
+		<div class = "section" id = "Credits">
+			<div class="contact">
+				<section class="container">
+					<h5>This&nbspportfolio&nbspis powered&nbspby:</h5>
+					<ul class="list-unstyled">
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a></span>
+							<span class="source">Steve Matteson</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Playfair+Display" target="_blank">Playfair Display</a></span>
+							<span class="source">Claus Eggers Sørensen</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Righteous" target="_blank">Righteous</a></span>
+							<span class="source">Astigmatic</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Anonymous+Pro" target="_blank">Anonymous Pro</a></span>
+							<span class="source">Mark Simonson</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a></span>
+							<span class="source">Matt McInerney</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://mattboldt.com/demos/typed-js/" target="_blank">Typed.js</a></span>
+							<span class="source">Matt Boldt</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://alvarotrigo.com/fullPage/" target="_blank">Fullpage.js</a></span>
+							<span class="source">Álvaro Trigo</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://www.flaticon.com/packs/font-awesome" target="_blank">Font Awesome</a></span>
+							<span class="source">Dave Gandy</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://getbootstrap.com/" target="_blank">Bootstrap 4.1.3</a></span>
+							<span class="source">MIT</span>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
