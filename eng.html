@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="title" content="Jaewoo An's Portfolio">
+    <meta name="author" content="Jaewoo An">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR|Nanum+Gothic+Coding|Nanum+Myeongjo|Do+Hyeon|Stylish">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Righteous|Anonymous+Pro|Raleway">
+	<!-- Javascript -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/typed.js"></script>
+	<script type="text/javascript" src="js/loading.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/update.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+	<title>Jaewoo An | Portfolio</title>
+</head>
+<body>
+	<div class="preload">
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+		<div class="obj"></div>
+	</div>
+	<script>
+		setTimeout("slide()", 3000);
+		setTimeout("show()", 4500);
+	</script>
+	<script>
+		$(document).ready(function(){
+			$("#wrapper").fullpage()
+		});
+	</script>
+	<div class="loader">
+	</div>
+	<div class="main" id="wrapper">
+		<div class="section">
+			<nav class="menu">
+	            <img class="toplogo" src="images/Logo.png" href="eng.html"></a>
+	            <ul class="list-inline">
+					<li class="list-inline-item"><a class="button homebutton" href="#wrapper">Home</a></li>
+					<li class="list-inline-item"><a class="button" href="#AboutMe">AboutMe</a></li>
+					<li class="list-inline-item"><a class="button" href="#Projects">Projects</a></li>
+					<li class="list-inline-item"><a class="button" href="#Contact">Contact</a></li>
+					<li class="list-inline-item"><a class="button" href="#Credits">Credits</a></li>
+					<li class="list-inline-item"><a class="button" href="index.html">한글</a></li>
+				</ul>
+	    	</nav>
+			<img class="logo" src="images/home.png">
+	    	<div class="bottom">
+	    		<h2><span id="type"></span></h2>
+	    	</div>
+		    <script>
+				var typed3 = new Typed('#type', {
+					strings: ["data mining", "data visualization", "data analysis", "machine learning", "deep learning", "web design"],
+					typeSpeed: 80,
+					backSpeed: 60,
+					smartBackspace: true, // this is a default
+					loop: true
+				});
+		    </script>
+		    <div class="scroll">
+		    	<span></span>
+		    	<span></span>
+		    	<span></span>
+		    </div>
+		</div>
+		<div class="section">
+			<div class="slide">
+				<div class="intro" id="AboutMe">
+					<section class="container">
+						<img class="profile" src="images/profile.jpg">
+						<h1> About me </h1>
+						<p id = "description">
+							Welcome. I am Jaewoo An. Born and raised in Seoul, I graduated from <a href="https://www.kaist.ac.kr/html/en/index.html">KAIST</a> with a bachelor's degree in <a href="https://bioeng.kaist.ac.kr/">bio & brain engineering</a>, which covers a variety of academic fields, from neuroscience to circuit theory. I was especially fascinated with neural networks. I worked my way through college, teaching myself what I felt was necessary. I started with data mining and optimization in C++. I spent my free time implementing machine learning models and performing statistical analysis in MATLAB and R. I taught myself how to visualize data using igraph, Seaborn, and Gephi as well. And then it was deep learning in Python 3 using TensorFlow.
+							<br><br>There is still a lot more for me to learn. But I will never stop learning. I am highly motivated to delve into whatever type of data I get my hands on, because I love what I do.
+						</p>
+					</section>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="details">
+					<section class="container">
+						<img class="profile" src="images/profile.jpg">
+						<h1> Wanna know more about me? </h1>
+						<p>
+							I like movies. I've watched more than 800 movies.
+							I like musicals. I've watched Wicked, Carmen, Three Musketeers, Rebecca, Gloomy Day, Marie Antoinette, Elizabeth, Doctor Zhivago, Lion King, etc.
+							I like traveling. I've been to Philadelphia, Boston, Baltimore, Kyoto, Osaka, Kobe, Himeji, Nagasaki, Fukuoka, Yufu, Hanoi, Sa Pa, Da Nang, Hạ Long, Cát Bà, Paris, Busan, Yeosu, Gwangju, Damyang, etc.
+							<a href="https://www.quora.com/profile/Jaewoo-An-1">I like philosophy.</a>
+							I like video games. My favorites: Sid Meier's Civilization, Dragon Age, Assassin's Creed, Pillars of Eternity, The Witcher, and Divinity.
+							I like tea and coffee. I would visit Kyoto just to taste a sip of fine Uzi Gyokuro. I love longjing and keemun even more. For coffee, I prefer hand drip over everything else, and my favorite beans are Ethiopia Yirgacheffe and Kenya AA.
+						</p>
+					</section>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="skills">
+					<section class="container">
+						<h1> SKILLS </h1>
+						<p>
+							<h3>Data Science</h3>
+							<h4><ul class="skill-list">
+								<li>Python3, NumPy, Pandas, Tensorflow</li>
+								<li>R3.5.1, MATLAB</li>
+								<li>ANOVA, K-NN, ConvNet, LSTM</li>
+							</ul></h4>
+							<h3>Web Design</h3>
+							<h4><ul class="skill-list">
+								<li>HTML5, CSS3, Javascript</li>
+								<li>Ruby 2.3.3, Rails 5.1.6, Bootstrap 4.1.3</li>
+							</ul></h4>
+							<h3>Others</h3>
+							<h4><ul class="skill-list">
+								<li>C++, Java SE6, Visual&nbsp;Basic, Gephi0.9.2</li>
+							</ul></h4>
+						</p>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div class = "section" id = "Projects">
+			<div class="slide">
+				<section class="container">
+					<h1>1 Steam Tags Analysis</h1>
+					<img class="project_image" src="images/example1.png">
+					<div class="Project_text">
+						<p>
+							My team performed a statistical analysis on video games, using the tags and reviews data we scraped from <a href="https://store.steampowered.com/">Steam</a>, one of the largest Digital Distribution Platforms. My first role in this project was to make a web crawler in R 3.5.1. I used rvest 0.3.2 package for crawling, and XML 3.98 package to refine the data into a nice .csv file. I calculated various statistical indicators such as eigenvector centrality and pagerank using Gephi 0.9.2. Using the modularity my teammate obtained using the Louvain Method, I visualized our data as a network on Gephi and as an alluvial diagram using R.
+						</p>
+					</div>
+					</p>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>2 Steam Review Prediction Model</h2>
+					<img class="project_image" src="images/example2.png">
+					<div class="Project_text">
+						<p>
+							For this personal project, I obtained a already cleaned data of all video games on Steam as .json from <a href="https://steamspy.com/api.php">SteamSpy API</a>. I transformed it into a .csv so I can train in using Tensorflow. This data undergoes ConvNet, max pooling, and batch normalization multiple times and finally outputs a review prediction through a RELU function. It was written in Python 3.6.7, and many useful libraries such as Numpy, Pandas, and Tensorflow were used. Tensorflow-GPU 1.12.0 was executed under Windows 10 and GTX1080, along with Nvidia CUDA 10.0.130, Nvidia cuDNN 7.4.1, and Microsoft Visual C++ 2015 Update 3.
+						</p>
+					</div>
+					</p>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>3 PlayDB Crawler</h3>
+					<img class="project_image" src="images/example3.png">
+					<div class="Project_text">
+						<p>
+							This Rscript scrapes titles, premiere dates, closing dates, casts, and reviews of every concert, musical, festival, and more from <a href="playdb.com">playdb.com</a>, the largest database for shows in Korea. It was written in R 3.5.1 using rvest 0.3.2 package, and the data refinement was doen using XML 3.98 and plyr 1.8.4 packages. 
+						</p>
+					</div>
+					</p>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>4 An Interactive Network of KAIST Professors</h4>
+					<img class="project_image" src="images/example4.png">
+					<div class="Project_text">
+						<p>
+							This is a visualization of all <a href="https://www.kaist.ac.kr/html/kr/index.html">KAIST</a> professors' department choices as they've gone from undergrad to masters to Ph.D. The original data is of 2015, provided by the academic administration of KAIST. On R 3.5.1, I removed all duplicates and empty rows and standardized attribute values. The data then went through de-identification for privacy. All new duplicates were added up to a new row called edge_weight. After normalizing, I visualized the data using Gephi 0.9.2 and exported the result as a HTML5 interactive network via SigmaExporter 0.9.0 plug-in. I also edited index.html, style.css and config.jss for better UX and readability.
+						</p>
+					</div>
+					</p>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>5 Handwritten Digits Recognizer</h5>
+					<img class="project_image" src="images/example5.png">
+					<div class="Project_text">
+						<p>
+							This is a deep learning model that recognizes handwritten digits. First, I got my train and test data from <a href="http://yann.lecun.com/exdb/mnist/">MNIST</a> database. I augmented my train data using ImageDataGenerator of the keras library, and then I normalized it on Python 3.6.7 using NumPy. The training data then went through a series of convolutional networks, max pooling and batch normalization. The result was put in RELU and Softmax to reach conclusion. After training, the test data was fed into the model, and the evaluation resulted in 99.99% accuracy.
+						</p>
+					</div>
+					</p>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>6 Twitter Word Cloud</h1>
+					<img class="project_image" src="images/example6.png">
+					<div class="Project_text">
+						<p>
+							This is a Rscript for creating a word cloud from <a href="https://twitter.com/">twitter</a> hashtags. This script takes a hashtag of the user's choice as an input, and crawls Twitter for N tweets with that particular hashtag. The scraped tweets are turned into a word cloud, with their sizes corresponding to their frequencies. It was written in R.3.5.1 using rtweet package and my Twitter API as a Twitter developer. The data was processed using tidytext, dplyr, stringr, and wordcloud2 packages.
+						</p>
+					</div>
+					</p>
+				</section>
+			</div>
+			<div class="slide">
+				<section class="container">
+					<h1>7 Pancreatic Cancer Diagnosis</h1>
+					<img class="project_image" src="images/example7.png">
+					<div class="Project_text">
+						<p>
+							This is a deep learning model for pancreatic cancer diagnosis.
+						</p>
+					</div>
+					</p>
+				</section>
+			</div>
+		</div>
+		<div class = "section" id = "Contact">
+			<div class="contact">
+				<section class="container">
+					<h5>Contact me via:</h5>
+					<ul class="list-unstyled" id = "flaticon_list">
+						<li title="이메일">
+							<i class="flaticon-envelope"></i>
+							<span class="iconed-text"><a href="mailto:an.jaewoo@gmail.com">GMAIL</a></span>
+						</li>
+						<li title="핸드폰">
+							<i class="flaticon-telephone-handle-silhouette"></i>
+							<span class="iconed-text"><a href="tel:010-8652-3094">PHONE</a></span>
+						</li>
+						<li title="GitHub">
+							<i class="flaticon-github-logo"></i>
+							<span class="iconed-text"><a href="https://github.com/epaqu" target="_blank">GITHUB</a></span>
+						</li>
+						<li title="LinkedIn">
+							<i class="flaticon-linkedin-sign"></i>
+							<span class="iconed-text"><a href="https://www.linkedin.com/in/jaewoo-an-805a31168" target="_blank">LINKEDIN</a></span>
+						</li>
+					</ul>
+					<div class="copyright">Copyright &copy; Jaewoo An</div>
+					<div class="update-date"><script>lastUpdate()</script></div>
+				</section>
+			</div>
+		</div>
+		<div class = "section" id = "Credits">
+			<div class="contact">
+				<section class="container">
+					<h5>This&nbspportfolio&nbspis powered&nbspby:</h5>
+					<ul class="list-unstyled">
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a></span>
+							<span class="source">Steve Matteson</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Playfair+Display" target="_blank">Playfair Display</a></span>
+							<span class="source">Claus Eggers Sørensen</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Righteous" target="_blank">Righteous</a></span>
+							<span class="source">Astigmatic</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Anonymous+Pro" target="_blank">Anonymous Pro</a></span>
+							<span class="source">Mark Simonson</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a></span>
+							<span class="source">Matt McInerney</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://mattboldt.com/demos/typed-js/" target="_blank">Typed.js</a></span>
+							<span class="source">Matt Boldt</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://alvarotrigo.com/fullPage/" target="_blank">Fullpage.js</a></span>
+							<span class="source">Álvaro Trigo</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://www.flaticon.com/packs/font-awesome" target="_blank">Font Awesome</a></span>
+							<span class="source">Dave Gandy</span>
+						</li>
+						<li>
+							<span class="credit"><a href="https://getbootstrap.com/" target="_blank">Bootstrap 4.1.3</a></span>
+							<span class="source">MIT</span>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
