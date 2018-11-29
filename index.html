@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- 폰트 추가 -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Noto+Serif+KR|Nanum+Gothic+Coding|Nanum+Myeongjo|Do+Hyeon|Stylish">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Do+Hyeon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display|Righteous|Anonymous+Pro|Raleway">
 	<!-- 자바스크립트 추가 -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -54,7 +54,7 @@
 			<nav class="menu">
 	            <img class="toplogo" src="images/Logo.png" href="index.html"></a>
 	            <ul class="list-inline">
-					<li class="list-inline-item"><a class="button homebutton" href="#wrapper">Home</a></li>
+					<li class="list-inline-item"><a class="button homebutton" href="index.html">Home</a></li>
 					<li class="list-inline-item"><a class="button" href="#AboutMe">AboutMe</a></li>
 					<li class="list-inline-item"><a class="button" href="#Projects">Projects</a></li>
 					<li class="list-inline-item"><a class="button" href="#Contact">Contact</a></li>
@@ -81,31 +81,15 @@
 		    	<span></span>
 		    </div>
 		</div>
-		<div class="section">
+		<div class="section" id="Prologue">
 			<div class="slide">
 				<div class="intro" id="AboutMe">
 					<section class="container">
 						<img class="profile" src="images/profile.jpg">
 						<h1> About me </h1>
 						<p id = "description">
-							Welcome. I am Jaewoo An. Born and raised in Seoul, I graduated from <a href="https://www.kaist.ac.kr/html/en/index.html">KAIST</a> with a bachelor's degree in <a href="https://bioeng.kaist.ac.kr/">bio & brain engineering</a>, which covers a variety of academic fields, from neuroscience to circuit theory. I was especially fascinated with neural networks. I worked my way through college, teaching myself what I felt was necessary. I started with data mining and optimization in C++. I spent my free time implementing machine learning models and performing statistical analysis in MATLAB and R. I taught myself how to visualize data using igraph, Seaborn, and Gephi as well. And then it was deep learning in Python 3 using TensorFlow.
-							<br><br>There is still a lot more for me to learn. But I will never stop learning. I am highly motivated to delve into whatever type of data I get my hands on, because I love what I do.
-						</p>
-					</section>
-				</div>
-			</div>
-			<div class="slide">
-				<div class="details">
-					<section class="container">
-						<img class="profile" src="images/profile.jpg">
-						<h1> Wanna know more about me? </h1>
-						<p>
-							I like movies. I've watched more than 800 movies.
-							I like musicals. I've watched Wicked, Carmen, Three Musketeers, Rebecca, Gloomy Day, Marie Antoinette, Elizabeth, Doctor Zhivago, Lion King, etc.
-							I like traveling. I've been to Philadelphia, Boston, Baltimore, Kyoto, Osaka, Kobe, Himeji, Nagasaki, Fukuoka, Yufu, Hanoi, Sa Pa, Da Nang, Hạ Long, Cát Bà, Paris, Busan, Yeosu, Gwangju, Damyang, etc.
-							<a href="https://www.quora.com/profile/Jaewoo-An-1">I like philosophy.</a>
-							I like video games. My favorites: Sid Meier's Civilization, Dragon Age, Assassin's Creed, Pillars of Eternity, The Witcher, and Divinity.
-							I like tea and coffee. I would visit Kyoto just to taste a sip of fine Uzi Gyokuro. I love longjing and keemun even more. For coffee, I prefer hand drip over everything else, and my favorite beans are Ethiopia Yirgacheffe and Kenya AA.
+							안녕하세요. 안재우입니다. 안양에서 태어나 서울, 뉴저지에서 자랐습니다. <a href="https://www.kaist.ac.kr/html/kr/index.html" target="_blank">한국과학기술원</a>에서 <a href="https://bioeng.kaist.ac.kr/" target="_blank">바이오및뇌공학</a>을 전공했고, 전공 수업에서 데이터구조를 처음 접한 것이 계기가 되어 사회연결망 이론, 통계분석을 거쳐 딥러닝에 빠지게 되었습니다. 그 후 제 공부에 필요하다 생각하면 가리지 않고 공부했습니다. 박사들과 나란히 신경학, 생리학, 정보학을 공부했고, 문화기술학을 부전공하여 통계기술을 배우고 문화 컨텐츠 분석에 활용해 보았으며 <a href="https://www.coursera.org/" target="_blank">Coursera</a>, <a href="https://leetcode.com/" target="_blank">Leetcode</a> 등 다양한 경로로 지식과 기술을 쌓았습니다. C++로 데이터마이닝과 최적화 알고리즘을 작성했고, 매트랩과 R로 통계분석과 머신러닝을 배웠습니다. igraph, Seaborn, Gephi로 데이터 시각화를 해보았으며, 현재는 텐서플로를 공부하고 있습니다.
+							<br><br>여전히 배워야 할 것은 터무니 없이 많습니다. 하지만 늘 도전하는 자세로 임하겠습니다. 데이터를 사랑하니까요!
 						</p>
 					</section>
 				</div>
@@ -115,20 +99,20 @@
 					<section class="container">
 						<h1> SKILLS </h1>
 						<p>
-							<h3>Data Science</h3>
+							<h3>데이터 분석</h3>
 							<h4><ul class="skill-list">
-								<li>Python3, NumPy, Pandas, Tensorflow</li>
+								<li>Python3, NumPy, Pandas, 텐서플로</li>
 								<li>R3.5.1, MATLAB</li>
 								<li>ANOVA, K-NN, ConvNet, LSTM</li>
 							</ul></h4>
-							<h3>Web Design</h3>
+							<h3>웹 디자인</h3>
 							<h4><ul class="skill-list">
-								<li>HTML5, CSS3, Javascript</li>
+								<li>HTML5, CSS3, 자바스크립트</li>
 								<li>Ruby 2.3.3, Rails 5.1.6, Bootstrap 4.1.3</li>
 							</ul></h4>
-							<h3>Others</h3>
+							<h3>기타</h3>
 							<h4><ul class="skill-list">
-								<li>C++, Java SE6, Visual&nbsp;Basic, Gephi0.9.2</li>
+								<li>C++, 자바 SE6, 비쥬얼&nbsp;베이직, Gephi 0.9.2</li>
 							</ul></h4>
 						</p>
 					</section>
@@ -138,111 +122,126 @@
 		<div class = "section" id = "Projects">
 			<div class="slide">
 				<section class="container">
-					<h1>1 Steam Tags Analysis</h1>
+					<h1>1 스팀 태그와 리뷰의 통계 분석</h1>
 					<img class="project_image" src="images/example1.png">
 					<div class="Project_text">
 						<p>
-							시장 최대 규모의 Digital Distribution Platform인 <a href="https://store.steampowered.com/">Steam</a>에 등록된 모든 게임의 태그와 리뷰 정보를 긁어와 이를 통해 게임을 장르화하고 장르와 리뷰 간 상관관계를 통계적으로 분석해보았습니다. 데이터는 R 3.5.1의 rvest 0.3.2 패키지를 이용하여 Steam.com에서 직접 긁어왔으며, XML 3.98 패키지로 데이터를 가다듬어 .csv로 저장하였습니다. 이후 eigenvector centrality, pagerank 등 간단한 통계적 지표는 Gephi 0.9.2를 사용하여 계산하였으며, Gephi 0.9.2와 igraph 1.2.2로 네트워크를 시각화하고 alluvial diagram을 만들어 보았습니다.
+							시장 최대 규모의 Digital Distribution Platform인 <a href="https://store.steampowered.com/" target="_blank">Steam</a>에 등록된 모든 게임의 태그와 리뷰 정보를 긁어와 이를 통해 게임을 장르화하고 장르와 리뷰 간 상관관계를 통계적으로 분석해보았습니다. 데이터는 R 3.5.1의 rvest 0.3.2 패키지를 이용하여 Steam.com에서 직접 긁어왔으며, XML 3.98 패키지로 데이터를 가다듬어 .csv로 저장하였습니다. 이후 eigenvector centrality, pagerank 등 간단한 통계적 지표는 Gephi 0.9.2를 사용하여 계산하였으며, Gephi 0.9.2와 igraph 1.2.2로 네트워크를 시각화하고 alluvial diagram을 만들어 보았습니다.
 						</p>
 					</div>
-					</p>
 				</section>
+				<div class="btns">
+					<button class="btn" onclick="window.open('works/report.pdf', '_blank')">보고서</button>
+					<button class="btn" onclick="window.open('https://github.com/epaqu/steam-tag-analysis', '_blank')">코드</button>
+				</div>
 			</div>
 			<div class="slide">
 				<section class="container">
-					<h1>2 Steam Review Prediction Model</h2>
+					<h1>2 스팀 리뷰 예측 모델</h1>
 					<img class="project_image" src="images/example2.png">
 					<div class="Project_text">
 						<p>
-							<a href="https://steamspy.com/api.php">SteamSpy API</a>를 통해 스팀에 등록된 모든 게임의 정보를 .json으로 구한 뒤, 해당 데이터를 정리하여 .csv로 저장하고 Tensorflow의 ConvNet, max pooling, batch normalization을 수차례 거쳐 RELU로 리뷰를 예측합니다. Python 3.6.7로 작업하였으며, Numpy, Pandas, Tensorflow를 사용하였습니다. Tensorflow는 Windows 10 GTX1080 환경에서 실행하였고, Tensorflow 1.12.0에 Nvidia CUDA 10.0.130과 Nvidia cuDNN 7.4.1, Microsoft Visual C++ 2015 Update 3를 이용했습니다.
+							<a href="https://steamspy.com/api.php" target="_blank">SteamSpy API</a>를 통해 스팀에 등록된 모든 게임의 정보를 .json으로 구한 뒤, 해당 데이터를 정리하여 .csv로 저장하고 Tensorflow의 ConvNet, max pooling, batch normalization을 수차례 거쳐 RELU로 리뷰를 예측합니다. Python 3.6.7로 작업하였으며, Numpy, Pandas, Tensorflow를 사용하였습니다. Tensorflow는 Windows 10 GTX1080 환경에서 실행하였고, Tensorflow 1.12.0에 Nvidia CUDA 10.0.130과 Nvidia cuDNN 7.4.1, Microsoft Visual C++ 2015 Update 3를 이용했습니다.<br><br>
 						</p>
 					</div>
-					</p>
 				</section>
+				<div class="btns">
+					<button class="btn" onclick="window.open('https://github.com/epaqu/steam', '_blank')">모델</button>
+					<button class="btn" onclick="window.open('https://github.com/epaqu/steam', '_blank')">코드</button>
+				</div>
 			</div>
 			<div class="slide">
 				<section class="container">
-					<h1>3 PlayDB Crawler</h3>
+					<h1>3 PlayDB 크롤러</h1>
 					<img class="project_image" src="images/example3.png">
 					<div class="Project_text">
 						<p>
-							국내 최고의 공연 데이터베이스 사이트인 <a href="playdb.com">playdb.com</a>에 등록된 콘서트, 뮤지컬, 페스티벌 등의 공연 이름, 시작날짜, 종료날짜, 공연자, 평점 등의 정보를 긁어와 .csv로 출력 및 저장을 지원하는 R 스크립트를 만들어보았습니다. R 3.5.1로 rvest 0.3.2 패키지를 통해 크롤러를 작성하였고, XML 3.98과 plyr 1.8.4로 데이터를 정리하였습니다. 
+							국내 최고의 공연 데이터베이스 사이트인 <a href="playdb.com" target="_blank">playdb.com</a>에 등록된 콘서트, 뮤지컬, 페스티벌 등의 공연 이름, 시작날짜, 종료날짜, 공연자, 평점 등의 정보를 긁어와 .csv로 출력 및 저장을 지원하는 R 스크립트를 만들어보았습니다. R 3.5.1로 rvest 0.3.2 패키지를 통해 크롤러를 작성하였고, XML 3.98과 plyr 1.8.4로 데이터를 정리하였습니다.<br><br><br>
 						</p>
 					</div>
-					</p>
 				</section>
+				<div class="btns">
+					<button class="btn" onclick="window.open('https://github.com/epaqu/playdb-scraper/blob/master/data.csv', '_blank')">결과물</button>
+					<button class="btn" onclick="window.open('https://github.com/epaqu/playdb-scraper', '_blank')">코드</button>
+				</div>
 			</div>
 			<div class="slide">
 				<section class="container">
-					<h1>4 An Interactive Network of KAIST Professors</h4>
+					<h1>4 KAIST 교수진 네트워크</h1>
 					<img class="project_image" src="images/example4.png">
 					<div class="Project_text">
 						<p>
-							2015년 기준 <a href="https://www.kaist.ac.kr/html/kr/index.html">KAIST</a>의 모든 교수의 학부-석사-박사 진학 중 학과 선택 데이터를 시각화해보았습니다. 원본 데이터는 KAIST 교무팀에 컨택하여 입수하여 R 3.5.1로 데이터를 정리했습니다. 중복되는 열, 비어있는 열을 삭제한 뒤 띄어쓰기나 대소문자 등 형식이 다른 과명칭을 통일시켰습니다. 그 뒤 개인정보를 비식별화하였으며, 그 뒤에 다시 발생하는 중복열은 통합하여 edge weight 행에 가산하였습니다. 이렇게 기본적인 정규화를 진행한 뒤 Gephi 0.9.2에서 SigmaExporter 0.9.0 플러그인을 사용하여 HTML5 인터렉티브 네트워크로 내보냈습니다. 이후 가독성을 높이고 전체적으로 더 나은 UX를 제공하기 위해 index.html과 style.css, config.json를 가볍게 수정하였습니다.
+							2015년 기준 <a href="https://www.kaist.ac.kr/html/kr/index.html" target="_blank">KAIST</a>의 모든 교수의 학부-석사-박사 진학 중 학과 선택 데이터를 시각화해보았습니다. 원본 데이터는 KAIST 교무팀에 컨택하여 입수하여 R 3.5.1로 데이터를 정리했습니다. 중복되는 열, 비어있는 열을 삭제한 뒤 띄어쓰기나 대소문자 등 형식이 다른 과명칭을 통일시켰습니다. 그 뒤 개인정보를 비식별화하였으며, 그 뒤에 다시 발생하는 중복열은 통합하여 edge weight 행에 가산하였습니다. 이렇게 기본적인 정규화를 진행한 뒤 Gephi 0.9.2에서 SigmaExporter 0.9.0 플러그인을 사용하여 HTML5 인터렉티브 네트워크로 내보냈습니다. 이후 가독성을 높이고 전체적으로 더 나은 UX를 제공하기 위해 index.html과 style.css, config.json를 가볍게 수정하였습니다.
 						</p>
 					</div>
-					</p>
 				</section>
+				<div class="btns">
+					<button class="btn" onclick="window.open('https://epaqu.github.io/interactive-network-of-kaist-profs/', '_blank')">결과물</button>
+					<button class="btn" onclick="window.open('https://github.com/epaqu/interactive-network-of-kaist-profs', '_blank')">코드</button>
+				</div>				
 			</div>
 			<div class="slide">
 				<section class="container">
-					<h1>5 Handwritten Digits Recognizer</h5>
+					<h1>5 숫자 필기 인식기</h1>
 					<img class="project_image" src="images/example5.png">
 					<div class="Project_text">
 						<p>
-							사람이 손으로 쓴 0부터 9까지의 숫자의 이미지의 각 픽셀값을 한 열로 가지는 대용량 행렬의 일부를 train data로, 나머지를 test data로 정한 뒤, train data를 .csv로 읽어들여 학습하고 test data를 입력 받으면 어떤 숫자인지 출력하는 딥러닝 모델입니다. Python3로 작성되었으며, <a href="http://yann.lecun.com/exdb/mnist/">MNIST</a> 데이터베이스에서 train data와 test data를 받아왔습니다. Keras의 ImageDataGenerator로 부족한 데이터를 보강하였으며, 이후 데이터를 normalize하였습니다. 준비가 끝난 데이터는 keras의 convolutional network, max pooling과 batch normalization 과정을 수차례 거친 뒤 RELU와 Softmax activation 함수를 통해 결론에 도달합니다. Evaluation 결과 인식 정확도는 99.9%였습니다.
+							사람이 손으로 쓴 0부터 9까지의 숫자의 이미지의 각 픽셀값을 한 열로 가지는 대용량 행렬로 학습시킨 딥러닝 모델입니다. 숫자 이미지를 같은 형식의 행렬로 입력받으면 인식 결과를 출력합니다. Python3로 작성되었으며, <a href="http://yann.lecun.com/exdb/mnist/" target="_blank">MNIST</a> 데이터베이스에서 train data와 test data를 받아왔습니다. Keras의 ImageDataGenerator로 부족한 데이터를 보강하였으며, 이후 데이터를 normalize하였습니다. 준비가 끝난 데이터는 keras의 convolutional network, max pooling과 batch normalization 과정을 수차례 거친 뒤 RELU와 Softmax activation 함수를 통해 결론에 도달합니다. Evaluation 결과 인식 정확도는 99.9%였습니다.
 						</p>
 					</div>
-					</p>
 				</section>
+				<div class="btns">
+					<button class="btn" onclick="window.open('https://github.com/epaqu/digit-recognizer/blob/master/output/digit_recognizer.h5', '_blank')">모델</button>
+					<button class="btn" onclick="window.open('https://github.com/epaqu/digit-recognizer', '_blank')">코드</button>
+				</div>
 			</div>
 			<div class="slide">
 				<section class="container">
-					<h1>6 Twitter Word Cloud</h1>
+					<h1>6 트위터 워드클라우드</h1>
 					<img class="project_image" src="images/example6.png">
 					<div class="Project_text">
 						<p>
-							<a href="https://twitter.com/">트위터</a> 해시태그로 워드 클라우드를 만드는 R 스크립트입니다. 원하는 해시태그를 검색하면 해당 해시태그를 가진 트윗 N개를 긁어와 발생 빈도에 따라 크기를 결정한 뒤 워드 클라우드 형태로 출력합니다.  R.3.5.1을 사용하였으며, rtweet 패키지를 이용해 트위터 개발자 계정에 할당되는 API로 트위터를 매우 쉽게 긁어올 수 있었습니다. 역시 tidytext와 dplyr, stringr 등의 패키지를 사용해 rtweet이 긁어온 데이터를 용도에 알맞는 형식으로 변환하였고, wordcloud2 패키지를 이용해 워드 클라우드를 생성하였습니다.
+							<a href="https://twitter.com/" target="_blank">트위터</a> 해시태그로 워드 클라우드를 만드는 R 스크립트입니다. 원하는 해시태그를 검색하면 해당 해시태그를 가진 트윗 N개를 긁어와 발생 빈도에 따라 크기를 결정한 뒤 워드 클라우드 형태로 출력합니다.  R.3.5.1을 사용하였으며, rtweet 패키지를 이용해 트위터 개발자 계정에 할당되는 API로 트위터를 매우 쉽게 긁어올 수 있었습니다. 역시 tidytext와 dplyr, stringr 등의 패키지를 사용해 rtweet이 긁어온 데이터를 용도에 알맞는 형식으로 변환하였고, wordcloud2 패키지를 이용해 워드 클라우드를 생성하였습니다.
 						</p>
 					</div>
-					</p>
 				</section>
+				<div class="btns">
+					<button class="btn" onclick="window.open('https://github.com/epaqu/twitter-wordcloud/blob/master/result.png', '_blank')">예제</button>
+					<button class="btn" onclick="window.open('https://github.com/epaqu/twitter-wordcloud', '_blank')">코드</button>
+				</div>
 			</div>
+			<!--
 			<div class="slide">
 				<section class="container">
-					<h1>7 Pancreatic Cancer Diagnosis</h1>
+					<h1>7 췌장암 진단기</h1>
 					<img class="project_image" src="images/example7.png">
 					<div class="Project_text">
 						<p>
 							췌장암을 진단하는 딥러닝 모델입니다.
 						</p>
 					</div>
-					</p>
 				</section>
 			</div>
+			-->
 		</div>
 		<div class = "section" id = "Contact">
 			<div class="contact">
 				<section class="container">
-					<h5>Contact me via:</h5>
-					<ul class="list-unstyled" id = "flaticon_list">
-						<li title="이메일">
-							<i class="flaticon-envelope"></i>
-							<span class="iconed-text"><a href="mailto:an.jaewoo@gmail.com">GMAIL</a></span>
-						</li>
-						<li title="핸드폰">
-							<i class="flaticon-telephone-handle-silhouette"></i>
-							<span class="iconed-text"><a href="tel:010-8652-3094">PHONE</a></span>
-						</li>
-						<li title="GitHub">
-							<i class="flaticon-github-logo"></i>
-							<span class="iconed-text"><a href="https://github.com/epaqu" target="_blank">GITHUB</a></span>
-						</li>
-						<li title="LinkedIn">
-							<i class="flaticon-linkedin-sign"></i>
-							<span class="iconed-text"><a href="https://www.linkedin.com/in/jaewoo-an-805a31168" target="_blank">LINKEDIN</a></span>
-						</li>
-					</ul>
+					<h5>Contact</h5>
+					<div class="box">
+						<div class="boxbox">
+							<a href=href="tel:010-8652-3094"><img src="images/phone.png"></a>
+						</div>
+						<div class="boxbox">
+							<a href="https://www.linkedin.com/in/jaewoo-an-805a31168" target="_blank"><img src="images/linkedin.png"></a>
+						</div>
+						<div class="boxbox">
+							<a href="https://github.com/epaqu" target="_blank"><img src="images/github.png"></a>
+						</div>
+						<div class="boxbox">
+							<a href="mailto:an.jaewoo@gmail.com"><img src="images/gmail.png"></a>
+						</div>
+					</div>
 					<div class="copyright">Copyright &copy; Jaewoo An</div>
 					<div class="update-date"><script>lastUpdate()</script></div>
 				</section>
@@ -251,7 +250,7 @@
 		<div class = "section" id = "Credits">
 			<div class="contact">
 				<section class="container">
-					<h5>This&nbspportfolio&nbspis powered&nbspby:</h5>
+					<h5>powered&nbspby:</h5>
 					<ul class="list-unstyled">
 						<li>
 							<span class="credit"><a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a></span>
