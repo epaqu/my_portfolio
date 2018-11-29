@@ -263,10 +263,12 @@ h5 {
 }
 .credit a {
 	text-align: center;
-	font-family: "Open Sans", sans-serif;
 	color: black;
-	line-height: 1.5;
-	font-size: 1.5rem;
+	line-height: 2;
+	font-size: 2rem;
+}
+.source {
+	font-family: "Playfair Display", serif
 }
 .copyright {
 	color: black;
@@ -302,6 +304,7 @@ a:hover {
 	border-radius: 50%;
 }
 .list-unstyled {
+	font-family: "Playfair Display", serif;
 	text-align: center;
 }
 #description {
@@ -310,7 +313,7 @@ a:hover {
 }
 .project_image {
 	position: relative;
-	width: 40vw;
+	width: 33vw;
 	margin-bottom: 1rem;
 }
 .fp-controlArrow.fp-prev {
@@ -396,5 +399,13 @@ a:hover {
 	}
 	.btns {
 		display: none;
+	}
+	.list-unstyled {
+		text-align: left;
+	}
+	.credit a {
+		color: black;
+		line-height: 1.5;
+		font-size: 1.5rem;
 	}
 }
