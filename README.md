@@ -1,6 +1,6 @@
 # known issues
 ================
-* On mobile, ABOUT ME overflows.
-* On mobile, slider arrows block contents.
-* Need to fill in the projects slides.
+* Nav menu pagination not working properly with fullPage.js pagination. 
 * On mobile, change nav menu into a single button.
+* Add image:hover overlay effects
+* Add image shadow
