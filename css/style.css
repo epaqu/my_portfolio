@@ -291,7 +291,7 @@ h5 {
 .copyright {
 	color: black;
 	position: absolute;
-	top: 90%;
+	top: 85%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	line-height: 2;
@@ -300,7 +300,7 @@ h5 {
 	color: black;
 	position: absolute;
 	line-height: 1;
-	top: 95%;
+	top: 90%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -329,6 +329,10 @@ a:hover {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
+.skills .container {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
 .project_image {
 	position: relative;
 	width: 40vw;
@@ -343,6 +347,9 @@ a:hover {
 	border-color: transparent transparent transparent black;
 }
 @media only screen and (max-width: 600px) {
+	.fp-controlArrow.fp-next, .fp-controlArrow.fp-prev {
+		top: 30%;
+	}
 	.container p {
 		font-size: 80%;
 		margin-top: 1rem;
